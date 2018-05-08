@@ -28,7 +28,23 @@ Finally make sure the user you plan on testing with has been assigned to your Op
 
 ## Run
 
-Run the sample from the `client` directory in this repo with `ng serve`.
+Clone this repo.
+
+```sh
+git clone https://github.com/onelogin/onelogin-oidc-angular.git
+```
+
+Install dependencies.
+
+```sh
+cd client && npm install
+```
+
+Start the development server.
+
+```sh
+ng serve
+```
 
 Browse to http://localhost:4200 and you will see an app with **Home** and **Protected** links.
 

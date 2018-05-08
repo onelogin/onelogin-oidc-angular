@@ -54,4 +54,4 @@ enter a token during the authentication. OneLogin takes care of all of this
 for you, making strong authentication much easier to implement in your app.
 
 ## Credits
-This project is based off [a great walkthrough provided by Scott Brady](https://www.scottbrady91.com/Angular/SPA-Authentiction-using-OpenID-Connect-Angular-CLI-and-oidc-client)which is worth checking out if you want a step by step guide on how to create the AuthGuard and AuthService etc.
+This project is based off [a great walkthrough provided by Scott Brady](https://www.scottbrady91.com/Angular/SPA-Authentiction-using-OpenID-Connect-Angular-CLI-and-oidc-client) which is worth checking out if you want a step by step guide on how to create the AuthGuard and AuthService etc.

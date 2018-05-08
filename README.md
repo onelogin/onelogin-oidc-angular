@@ -17,16 +17,24 @@ npm install -g @angular/cli
 ## Setup
 In production you would initialize these variables in your environment configuration but for the same of keeping the sample simple we have hardcoded them in `src/app/services/auth.service.ts`.
 
-Replace the following with your own values
+Replace the following with your own values:
 
 - **authority** - Your OneLogin subdomain `https://replace-with-your-subdomain.onelogin.com/oidc`
 - **client_id** - The Client Id for the OpenId Connect app you created in the OneLogin portal. e.g. `78d1d040-20c9-0336-5146-067351775fae92222`
 
 You should also make sure that you have configured `http://localhost:4200/auth-callback` as a **redirect uri** on the Configuration tab of your app.
 
+Finally make sure the user you plan on testing with has been assigned to your OpenId Connect app. They will not be able to authenticate unless they have access.
+
 ## Run
 
 Run the sample from the `client` directory in this repo with `ng serve`.
+
+Browse to http://localhost:4200 and you will see an app with **Home** and **Protected** links.
+
+The **Protected** link requires the user to be authenticated before it will be displayed. Clicking on it will redirect you to OneLogin for authentication.
+
+After successful authentication you will be redirected back to the **Protected** page.
 
 ## What can I use these for
 OpenId Connect is a great way to add user authentication to your application

@@ -38,7 +38,7 @@ export class AuthService {
 
 export function getClientSettings(): UserManagerSettings {
   return {
-    authority: 'https://your-onelogin-subdomain.onelogin.com/oidc',
+    authority: 'https://openid-connect.onelogin.com/oidc',
     client_id: 'you-openid-connect-app-client-id',
     redirect_uri: 'http://localhost:4200/auth-callback',
     post_logout_redirect_uri: 'http://localhost:4200/',

@@ -23,7 +23,7 @@
     "@angular/router": "^5.2.0",
     "babel-polyfill": "^6.26.0",
     "core-js": "^2.4.1",
-    "oidc-client": "^1.4.1",
+    "oidc-client": "^1.10.1",
     "rxjs": "^5.5.6",
     "zone.js": "^0.8.19"
   },
